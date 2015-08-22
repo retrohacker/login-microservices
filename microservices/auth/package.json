@@ -1,0 +1,24 @@
+{
+  "name": "memry-auth",
+  "version": "1.0.0",
+  "description": "Authentication microservice for memry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "backbone": "^1.2.1",
+    "connect-redis": "^2.4.1",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "passport": "^0.2.2",
+    "passport-google-oauth": "^0.2.0",
+    "pg": "^4.4.1",
+    "pg-query": "^0.11.0",
+    "redis": "^0.12.1",
+    "winston": "^1.0.1"
+  }
+}

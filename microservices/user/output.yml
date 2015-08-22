@@ -1,0 +1,1116 @@
+_readableState: 
+  highWaterMark:     16384
+  buffer: 
+    (empty array)
+  length:            0
+  pipes:             null
+  pipesCount:        0
+  flowing:           false
+  ended:             false
+  endEmitted:        false
+  reading:           false
+  calledRead:        false
+  sync:              true
+  needReadable:      false
+  emittedReadable:   false
+  readableListening: false
+  objectMode:        false
+  defaultEncoding:   utf8
+  ranOut:            false
+  awaitDrain:        0
+  readingMore:       false
+  decoder:           null
+  encoding:          null
+readable:           true
+domain:             null
+_events: 
+
+_maxListeners:      10
+socket: 
+  _connecting:         false
+  _handle: 
+    fd:             12
+    writeQueueSize: 0
+    owner:          [Circular ~.socket]
+    reading:        true
+  _readableState: 
+    highWaterMark:     16384
+    buffer: 
+      (empty array)
+    length:            0
+    pipes:             null
+    pipesCount:        0
+    flowing:           false
+    ended:             false
+    endEmitted:        false
+    reading:           true
+    calledRead:        true
+    sync:              false
+    needReadable:      true
+    emittedReadable:   false
+    readableListening: false
+    objectMode:        false
+    defaultEncoding:   utf8
+    ranOut:            false
+    awaitDrain:        0
+    readingMore:       false
+    decoder:           null
+    encoding:          null
+  readable:            true
+  domain:              null
+  _events: 
+    drain: 
+      - null
+      - null
+    close: 
+      - null
+      - null
+  _maxListeners:       10
+  _writableState: 
+    highWaterMark:    16384
+    objectMode:       false
+    needDrain:        false
+    ending:           false
+    ended:            false
+    finished:         false
+    decodeStrings:    false
+    defaultEncoding:  utf8
+    length:           0
+    writing:          false
+    sync:             true
+    bufferProcessing: false
+    writecb:          null
+    writelen:         0
+    buffer: 
+      (empty array)
+    errorEmitted:     false
+  writable:            true
+  allowHalfOpen:       true
+  destroyed:           false
+  bytesRead:           99
+  _bytesDispatched:    0
+  _pendingData:        null
+  _pendingEncoding:    
+  server: 
+    domain:            null
+    _events: 
+
+    _maxListeners:     10
+    _connections:      1
+    connections:       1
+    _handle: 
+      fd:             10
+      writeQueueSize: 0
+      owner:          [Circular ~.socket.server]
+    _usingSlaves:      false
+    _slaves: 
+      (empty array)
+    allowHalfOpen:     true
+    httpAllowHalfOpen: false
+    timeout:           120000
+    _connectionKey:    4:0.0.0.0:3000
+  _idleTimeout:        120000
+  _idleNext: 
+    _idleNext: [Circular ~.socket]
+    _idlePrev: [Circular ~.socket]
+  _idlePrev: 
+    _idleNext: [Circular ~.socket]
+    _idlePrev: [Circular ~.socket]
+  _idleStart:          1440177838148
+  _monotonicStartTime: 94226278
+  parser: 
+    _headers: 
+      (empty array)
+    _url:           
+    socket:         [Circular ~.socket]
+    incoming:       [Circular ~]
+    maxHeaderPairs: 2000
+  _paused:             false
+  _httpMessage: 
+    domain:                      null
+    _events: 
+
+    _maxListeners:               10
+    output: 
+      (empty array)
+    outputEncodings: 
+      (empty array)
+    writable:                    true
+    _last:                       false
+    chunkedEncoding:             false
+    shouldKeepAlive:             false
+    useChunkedEncodingByDefault: false
+    sendDate:                    true
+    _headerSent:                 false
+    _header:                     
+    _hasBody:                    true
+    _trailer:                    
+    finished:                    false
+    _hangupClose:                false
+    socket:                      [Circular ~.socket]
+    connection:                  [Circular ~.socket]
+    _headers: 
+      x-powered-by: Express
+      content-type: application/json
+    _headerNames: 
+      x-powered-by: X-Powered-By
+      content-type: Content-Type
+    req:                         [Circular ~]
+    locals: 
+
+connection: 
+  _connecting:         false
+  _handle: 
+    fd:             12
+    writeQueueSize: 0
+    owner:          [Circular ~.connection]
+    reading:        true
+  _readableState: 
+    highWaterMark:     16384
+    buffer: 
+      (empty array)
+    length:            0
+    pipes:             null
+    pipesCount:        0
+    flowing:           false
+    ended:             false
+    endEmitted:        false
+    reading:           true
+    calledRead:        true
+    sync:              false
+    needReadable:      true
+    emittedReadable:   false
+    readableListening: false
+    objectMode:        false
+    defaultEncoding:   utf8
+    ranOut:            false
+    awaitDrain:        0
+    readingMore:       false
+    decoder:           null
+    encoding:          null
+  readable:            true
+  domain:              null
+  _events: 
+    drain: 
+      - null
+      - null
+    close: 
+      - null
+      - null
+  _maxListeners:       10
+  _writableState: 
+    highWaterMark:    16384
+    objectMode:       false
+    needDrain:        false
+    ending:           false
+    ended:            false
+    finished:         false
+    decodeStrings:    false
+    defaultEncoding:  utf8
+    length:           0
+    writing:          false
+    sync:             true
+    bufferProcessing: false
+    writecb:          null
+    writelen:         0
+    buffer: 
+      (empty array)
+    errorEmitted:     false
+  writable:            true
+  allowHalfOpen:       true
+  destroyed:           false
+  bytesRead:           99
+  _bytesDispatched:    0
+  _pendingData:        null
+  _pendingEncoding:    
+  server: 
+    domain:            null
+    _events: 
+
+    _maxListeners:     10
+    _connections:      1
+    connections:       1
+    _handle: 
+      fd:             10
+      writeQueueSize: 0
+      owner:          [Circular ~.connection.server]
+    _usingSlaves:      false
+    _slaves: 
+      (empty array)
+    allowHalfOpen:     true
+    httpAllowHalfOpen: false
+    timeout:           120000
+    _connectionKey:    4:0.0.0.0:3000
+  _idleTimeout:        120000
+  _idleNext: 
+    _idleNext: [Circular ~.connection]
+    _idlePrev: [Circular ~.connection]
+  _idlePrev: 
+    _idleNext: [Circular ~.connection]
+    _idlePrev: [Circular ~.connection]
+  _idleStart:          1440177838148
+  _monotonicStartTime: 94226278
+  parser: 
+    _headers: 
+      (empty array)
+    _url:           
+    socket:         [Circular ~.connection]
+    incoming:       [Circular ~]
+    maxHeaderPairs: 2000
+  _paused:             false
+  _httpMessage: 
+    domain:                      null
+    _events: 
+
+    _maxListeners:               10
+    output: 
+      (empty array)
+    outputEncodings: 
+      (empty array)
+    writable:                    true
+    _last:                       false
+    chunkedEncoding:             false
+    shouldKeepAlive:             false
+    useChunkedEncodingByDefault: false
+    sendDate:                    true
+    _headerSent:                 false
+    _header:                     
+    _hasBody:                    true
+    _trailer:                    
+    finished:                    false
+    _hangupClose:                false
+    socket:                      [Circular ~.connection]
+    connection:                  [Circular ~.connection]
+    _headers: 
+      x-powered-by: Express
+      content-type: application/json
+    _headerNames: 
+      x-powered-by: X-Powered-By
+      content-type: Content-Type
+    req:                         [Circular ~]
+    locals: 
+
+httpVersion:        1.0
+complete:           false
+headers: 
+  host:       user:3000
+  connection: close
+  user-agent: curl/7.38.0
+  accept:     */*
+trailers: 
+
+_pendings: 
+  (empty array)
+_pendingIndex:      0
+url:                /v1/user
+method:             GET
+statusCode:         null
+client: 
+  _connecting:         false
+  _handle: 
+    fd:             12
+    writeQueueSize: 0
+    owner:          [Circular ~.client]
+    reading:        true
+  _readableState: 
+    highWaterMark:     16384
+    buffer: 
+      (empty array)
+    length:            0
+    pipes:             null
+    pipesCount:        0
+    flowing:           false
+    ended:             false
+    endEmitted:        false
+    reading:           true
+    calledRead:        true
+    sync:              false
+    needReadable:      true
+    emittedReadable:   false
+    readableListening: false
+    objectMode:        false
+    defaultEncoding:   utf8
+    ranOut:            false
+    awaitDrain:        0
+    readingMore:       false
+    decoder:           null
+    encoding:          null
+  readable:            true
+  domain:              null
+  _events: 
+    drain: 
+      - null
+      - null
+    close: 
+      - null
+      - null
+  _maxListeners:       10
+  _writableState: 
+    highWaterMark:    16384
+    objectMode:       false
+    needDrain:        false
+    ending:           false
+    ended:            false
+    finished:         false
+    decodeStrings:    false
+    defaultEncoding:  utf8
+    length:           0
+    writing:          false
+    sync:             true
+    bufferProcessing: false
+    writecb:          null
+    writelen:         0
+    buffer: 
+      (empty array)
+    errorEmitted:     false
+  writable:            true
+  allowHalfOpen:       true
+  destroyed:           false
+  bytesRead:           99
+  _bytesDispatched:    0
+  _pendingData:        null
+  _pendingEncoding:    
+  server: 
+    domain:            null
+    _events: 
+
+    _maxListeners:     10
+    _connections:      1
+    connections:       1
+    _handle: 
+      fd:             10
+      writeQueueSize: 0
+      owner:          [Circular ~.client.server]
+    _usingSlaves:      false
+    _slaves: 
+      (empty array)
+    allowHalfOpen:     true
+    httpAllowHalfOpen: false
+    timeout:           120000
+    _connectionKey:    4:0.0.0.0:3000
+  _idleTimeout:        120000
+  _idleNext: 
+    _idleNext: [Circular ~.client]
+    _idlePrev: [Circular ~.client]
+  _idlePrev: 
+    _idleNext: [Circular ~.client]
+    _idlePrev: [Circular ~.client]
+  _idleStart:          1440177838148
+  _monotonicStartTime: 94226278
+  parser: 
+    _headers: 
+      (empty array)
+    _url:           
+    socket:         [Circular ~.client]
+    incoming:       [Circular ~]
+    maxHeaderPairs: 2000
+  _paused:             false
+  _httpMessage: 
+    domain:                      null
+    _events: 
+
+    _maxListeners:               10
+    output: 
+      (empty array)
+    outputEncodings: 
+      (empty array)
+    writable:                    true
+    _last:                       false
+    chunkedEncoding:             false
+    shouldKeepAlive:             false
+    useChunkedEncodingByDefault: false
+    sendDate:                    true
+    _headerSent:                 false
+    _header:                     
+    _hasBody:                    true
+    _trailer:                    
+    finished:                    false
+    _hangupClose:                false
+    socket:                      [Circular ~.client]
+    connection:                  [Circular ~.client]
+    _headers: 
+      x-powered-by: Express
+      content-type: application/json
+    _headerNames: 
+      x-powered-by: X-Powered-By
+      content-type: Content-Type
+    req:                         [Circular ~]
+    locals: 
+
+_consuming:         false
+_dumped:            false
+httpVersionMajor:   1
+httpVersionMinor:   0
+upgrade:            false
+baseUrl:            
+originalUrl:        /v1/user
+_parsedUrl: 
+  protocol: null
+  slashes:  null
+  auth:     null
+  host:     null
+  port:     null
+  hostname: null
+  hash:     null
+  search:   null
+  query:    null
+  pathname: /v1/user
+  path:     /v1/user
+  href:     /v1/user
+  _raw:     /v1/user
+params: 
+
+query: 
+
+res: 
+  domain:                      null
+  _events: 
+
+  _maxListeners:               10
+  output: 
+    (empty array)
+  outputEncodings: 
+    (empty array)
+  writable:                    true
+  _last:                       false
+  chunkedEncoding:             false
+  shouldKeepAlive:             false
+  useChunkedEncodingByDefault: false
+  sendDate:                    true
+  _headerSent:                 false
+  _header:                     
+  _hasBody:                    true
+  _trailer:                    
+  finished:                    false
+  _hangupClose:                false
+  socket: 
+    _connecting:         false
+    _handle: 
+      fd:             12
+      writeQueueSize: 0
+      owner:          [Circular ~.res.socket]
+      reading:        true
+    _readableState: 
+      highWaterMark:     16384
+      buffer: 
+        (empty array)
+      length:            0
+      pipes:             null
+      pipesCount:        0
+      flowing:           false
+      ended:             false
+      endEmitted:        false
+      reading:           true
+      calledRead:        true
+      sync:              false
+      needReadable:      true
+      emittedReadable:   false
+      readableListening: false
+      objectMode:        false
+      defaultEncoding:   utf8
+      ranOut:            false
+      awaitDrain:        0
+      readingMore:       false
+      decoder:           null
+      encoding:          null
+    readable:            true
+    domain:              null
+    _events: 
+      drain: 
+        - null
+        - null
+      close: 
+        - null
+        - null
+    _maxListeners:       10
+    _writableState: 
+      highWaterMark:    16384
+      objectMode:       false
+      needDrain:        false
+      ending:           false
+      ended:            false
+      finished:         false
+      decodeStrings:    false
+      defaultEncoding:  utf8
+      length:           0
+      writing:          false
+      sync:             true
+      bufferProcessing: false
+      writecb:          null
+      writelen:         0
+      buffer: 
+        (empty array)
+      errorEmitted:     false
+    writable:            true
+    allowHalfOpen:       true
+    destroyed:           false
+    bytesRead:           99
+    _bytesDispatched:    0
+    _pendingData:        null
+    _pendingEncoding:    
+    server: 
+      domain:            null
+      _events: 
+
+      _maxListeners:     10
+      _connections:      1
+      connections:       1
+      _handle: 
+        fd:             10
+        writeQueueSize: 0
+        owner:          [Circular ~.res.socket.server]
+      _usingSlaves:      false
+      _slaves: 
+        (empty array)
+      allowHalfOpen:     true
+      httpAllowHalfOpen: false
+      timeout:           120000
+      _connectionKey:    4:0.0.0.0:3000
+    _idleTimeout:        120000
+    _idleNext: 
+      _idleNext: [Circular ~.res.socket]
+      _idlePrev: [Circular ~.res.socket]
+    _idlePrev: 
+      _idleNext: [Circular ~.res.socket]
+      _idlePrev: [Circular ~.res.socket]
+    _idleStart:          1440177838148
+    _monotonicStartTime: 94226278
+    parser: 
+      _headers: 
+        (empty array)
+      _url:           
+      socket:         [Circular ~.res.socket]
+      incoming:       [Circular ~]
+      maxHeaderPairs: 2000
+    _paused:             false
+    _httpMessage:        [Circular ~.res]
+  connection: 
+    _connecting:         false
+    _handle: 
+      fd:             12
+      writeQueueSize: 0
+      owner:          [Circular ~.res.connection]
+      reading:        true
+    _readableState: 
+      highWaterMark:     16384
+      buffer: 
+        (empty array)
+      length:            0
+      pipes:             null
+      pipesCount:        0
+      flowing:           false
+      ended:             false
+      endEmitted:        false
+      reading:           true
+      calledRead:        true
+      sync:              false
+      needReadable:      true
+      emittedReadable:   false
+      readableListening: false
+      objectMode:        false
+      defaultEncoding:   utf8
+      ranOut:            false
+      awaitDrain:        0
+      readingMore:       false
+      decoder:           null
+      encoding:          null
+    readable:            true
+    domain:              null
+    _events: 
+      drain: 
+        - null
+        - null
+      close: 
+        - null
+        - null
+    _maxListeners:       10
+    _writableState: 
+      highWaterMark:    16384
+      objectMode:       false
+      needDrain:        false
+      ending:           false
+      ended:            false
+      finished:         false
+      decodeStrings:    false
+      defaultEncoding:  utf8
+      length:           0
+      writing:          false
+      sync:             true
+      bufferProcessing: false
+      writecb:          null
+      writelen:         0
+      buffer: 
+        (empty array)
+      errorEmitted:     false
+    writable:            true
+    allowHalfOpen:       true
+    destroyed:           false
+    bytesRead:           99
+    _bytesDispatched:    0
+    _pendingData:        null
+    _pendingEncoding:    
+    server: 
+      domain:            null
+      _events: 
+
+      _maxListeners:     10
+      _connections:      1
+      connections:       1
+      _handle: 
+        fd:             10
+        writeQueueSize: 0
+        owner:          [Circular ~.res.connection.server]
+      _usingSlaves:      false
+      _slaves: 
+        (empty array)
+      allowHalfOpen:     true
+      httpAllowHalfOpen: false
+      timeout:           120000
+      _connectionKey:    4:0.0.0.0:3000
+    _idleTimeout:        120000
+    _idleNext: 
+      _idleNext: [Circular ~.res.connection]
+      _idlePrev: [Circular ~.res.connection]
+    _idlePrev: 
+      _idleNext: [Circular ~.res.connection]
+      _idlePrev: [Circular ~.res.connection]
+    _idleStart:          1440177838148
+    _monotonicStartTime: 94226278
+    parser: 
+      _headers: 
+        (empty array)
+      _url:           
+      socket:         [Circular ~.res.connection]
+      incoming:       [Circular ~]
+      maxHeaderPairs: 2000
+    _paused:             false
+    _httpMessage:        [Circular ~.res]
+  _headers: 
+    x-powered-by: Express
+    content-type: application/json
+  _headerNames: 
+    x-powered-by: X-Powered-By
+    content-type: Content-Type
+  req:                         [Circular ~]
+  locals: 
+
+_parsedOriginalUrl: 
+  protocol: null
+  slashes:  null
+  auth:     null
+  host:     null
+  port:     null
+  hostname: null
+  hash:     null
+  search:   null
+  query:    null
+  pathname: /v1/user
+  path:     /v1/user
+  href:     /v1/user
+  _raw:     /v1/user
+sessionStore: 
+  prefix:  sess:
+  client: 
+    stream: 
+      _connecting:      false
+      _handle: 
+        fd:             11
+        writeQueueSize: 0
+        owner:          [Circular ~.sessionStore.client.stream]
+        reading:        true
+      _readableState: 
+        highWaterMark:     16384
+        buffer: 
+          (empty array)
+        length:            0
+        pipes:             null
+        pipesCount:        0
+        flowing:           false
+        ended:             false
+        endEmitted:        false
+        reading:           true
+        calledRead:        true
+        sync:              false
+        needReadable:      true
+        emittedReadable:   false
+        readableListening: false
+        objectMode:        false
+        defaultEncoding:   utf8
+        ranOut:            false
+        awaitDrain:        0
+        readingMore:       false
+        decoder:           null
+        encoding:          null
+      readable:         true
+      domain:           null
+      _events: 
+        end: 
+          - null
+          - null
+        connect: 
+          - null
+      _maxListeners:    10
+      _writableState: 
+        highWaterMark:    16384
+        objectMode:       false
+        needDrain:        false
+        ending:           false
+        ended:            false
+        finished:         false
+        decodeStrings:    false
+        defaultEncoding:  utf8
+        length:           0
+        writing:          false
+        sync:             false
+        bufferProcessing: false
+        writecb:          null
+        writelen:         0
+        buffer: 
+          (empty array)
+        errorEmitted:     false
+      writable:         true
+      allowHalfOpen:    false
+      onend:            null
+      destroyed:        false
+      bytesRead:        1928
+      _bytesDispatched: 167
+      _pendingData:     null
+      _pendingEncoding: 
+      _consuming:       true
+      _idleNext:        null
+      _idlePrev:        null
+      _idleTimeout:     -1
+    options: 
+      socket_nodelay:   true
+      socket_keepalive: true
+    connection_id:            1
+    connected:                true
+    ready:                    true
+    connections:              1
+    should_buffer:            false
+    command_queue_high_water: 1000
+    command_queue_low_water:  0
+    max_attempts:             null
+    command_queue: 
+      tail: 
+        (empty array)
+      head: 
+        (empty array)
+      offset: 0
+    offline_queue: 
+      tail: 
+        (empty array)
+      head: 
+        (empty array)
+      offset: 0
+    commands_sent:            2
+    connect_timeout:          false
+    enable_offline_queue:     true
+    retry_max_delay:          null
+    retry_timer:              null
+    retry_totaltime:          0
+    retry_delay:              150
+    retry_backoff:            1.7
+    attempts:                 1
+    pub_sub_mode:             false
+    subscription_set: 
+
+    monitoring:               false
+    closing:                  false
+    server_info: 
+      redis_version:                  3.0.3
+      redis_git_sha1:                 00000000
+      redis_git_dirty:                0
+      redis_build_id:                 bf300626cfd5c55b
+      redis_mode:                     standalone
+      os:                             Linux 3.16.0-4-amd64 x86_64
+      arch_bits:                      64
+      multiplexing_api:               epoll
+      gcc_version:                    4.7.2
+      process_id:                     1
+      run_id:                         7a9496ce34347399ae71d847cb7d5608b84fa3d8
+      tcp_port:                       6379
+      uptime_in_seconds:              2
+      uptime_in_days:                 0
+      hz:                             10
+      lru_clock:                      14114419
+      connected_clients:              1
+      client_longest_output_list:     0
+      client_biggest_input_buf:       0
+      blocked_clients:                0
+      used_memory:                    816520
+      used_memory_human:              797.38K
+      used_memory_rss:                3555328
+      used_memory_peak:               816520
+      used_memory_peak_human:         797.38K
+      used_memory_lua:                36864
+      mem_fragmentation_ratio:        4.35
+      mem_allocator:                  jemalloc-3.6.0
+      loading:                        0
+      rdb_changes_since_last_save:    0
+      rdb_bgsave_in_progress:         0
+      rdb_last_save_time:             1440177777
+      rdb_last_bgsave_status:         ok
+      rdb_last_bgsave_time_sec:       -1
+      rdb_current_bgsave_time_sec:    -1
+      aof_enabled:                    0
+      aof_rewrite_in_progress:        0
+      aof_rewrite_scheduled:          0
+      aof_last_rewrite_time_sec:      -1
+      aof_current_rewrite_time_sec:   -1
+      aof_last_bgrewrite_status:      ok
+      aof_last_write_status:          ok
+      total_connections_received:     1
+      total_commands_processed:       0
+      instantaneous_ops_per_sec:      0
+      total_net_input_bytes:          14
+      total_net_output_bytes:         0
+      instantaneous_input_kbps:       0.00
+      instantaneous_output_kbps:      0.00
+      rejected_connections:           0
+      sync_full:                      0
+      sync_partial_ok:                0
+      sync_partial_err:               0
+      expired_keys:                   0
+      evicted_keys:                   0
+      keyspace_hits:                  0
+      keyspace_misses:                0
+      pubsub_channels:                0
+      pubsub_patterns:                0
+      latest_fork_usec:               0
+      migrate_cached_sockets:         0
+      role:                           master
+      connected_slaves:               0
+      master_repl_offset:             0
+      repl_backlog_active:            0
+      repl_backlog_size:              1048576
+      repl_backlog_first_byte_offset: 0
+      repl_backlog_histlen:           0
+      used_cpu_sys:                   0.00
+      used_cpu_user:                  0.02
+      used_cpu_sys_children:          0.00
+      used_cpu_user_children:         0.00
+      cluster_enabled:                0
+      db0:                            keys=3,expires=3,avg_ttl=86336503
+      versions: 
+        - 3
+        - 0
+        - 3
+    parser_module: 
+      name:       javascript
+      debug_mode: false
+    selected_db:              null
+    old_state:                null
+    domain:                   null
+    _events: 
+      error: 
+        - null
+        - null
+    _maxListeners:            10
+    connectionOption: 
+      port:   6379
+      host:   session
+      family: 4
+    address:                  session:6379
+    emitted_end:              false
+    reply_parser: 
+      name:        javascript
+      options: 
+        return_buffers: false
+      _buffer: 
+        - 43
+        - 79
+        - 75
+        - 13
+        - 10
+      _offset:     5
+      _encoding:   utf-8
+      _reply_type: null
+      _events: 
+
+    send_anyway:              false
+  _events: 
+
+sessionID:          867pT5kA8SkqkBh3PgM-cL9QrRixtAfA
+session: 
+  cookie: 
+    originalMaxAge: null
+    expires:        null
+    httpOnly:       true
+    path:           /
+_passport: 
+  instance: 
+    _key:              passport
+    _strategies: 
+      session: 
+        name: session
+    _serializers: 
+      - null
+    _deserializers: 
+      - null
+    _infoTransformers: 
+      (empty array)
+    _framework: 
+
+    _userProperty:     user
+    strategies: 
+
+swagger: 
+  apiPath:             /
+  path: 
+    x-swagger-router-controller: user
+    get: 
+      description: Return the name of the currently logged in user
+      operationId: get
+      responses: 
+        200: 
+          description: User Found
+          schema: 
+            properties: 
+              id: 
+                type:   integer
+                format: int32
+              firstname: 
+                type: string
+              lastname: 
+                type: string
+              email: 
+                type: string
+        401: 
+          description: Not Logged In
+        default: 
+          description: Error
+          schema: 
+            required: 
+              - timestamp
+              - id
+            properties: 
+              timestamp: 
+                description: The approximate time the error was encountered
+                type:        string
+                format:      date-time
+              id: 
+                description: The unique identifier for the error
+                type:        integer
+                format:      int32
+  params: 
+
+  swaggerObject: 
+    swagger:     2.0
+    info: 
+      version: 0.0.1
+      title:   User
+    host:        localhost:3000
+    basePath:    /v1/user
+    schemes: 
+      - http
+    consumes: 
+      - application/json
+    produces: 
+      - application/json
+    paths: 
+      /: 
+        x-swagger-router-controller: user
+        get: 
+          description: Return the name of the currently logged in user
+          operationId: get
+          responses: 
+            200: 
+              description: User Found
+              schema: 
+                properties: 
+                  id: 
+                    type:   integer
+                    format: int32
+                  firstname: 
+                    type: string
+                  lastname: 
+                    type: string
+                  email: 
+                    type: string
+            401: 
+              description: Not Logged In
+            default: 
+              description: Error
+              schema: 
+                required: 
+                  - timestamp
+                  - id
+                properties: 
+                  timestamp: 
+                    description: The approximate time the error was encountered
+                    type:        string
+                    format:      date-time
+                  id: 
+                    description: The unique identifier for the error
+                    type:        integer
+                    format:      int32
+    definitions: 
+      User: 
+        properties: 
+          id: 
+            type:   integer
+            format: int32
+          firstname: 
+            type: string
+          lastname: 
+            type: string
+          email: 
+            type: string
+      ServerError: 
+        required: 
+          - timestamp
+          - id
+        properties: 
+          timestamp: 
+            description: The approximate time the error was encountered
+            type:        string
+            format:      date-time
+          id: 
+            description: The unique identifier for the error
+            type:        integer
+            format:      int32
+  operation: 
+    description: Return the name of the currently logged in user
+    operationId: get
+    responses: 
+      200: 
+        description: User Found
+        schema: 
+          properties: 
+            id: 
+              type:   integer
+              format: int32
+            firstname: 
+              type: string
+            lastname: 
+              type: string
+            email: 
+              type: string
+      401: 
+        description: Not Logged In
+      default: 
+        description: Error
+        schema: 
+          required: 
+            - timestamp
+            - id
+          properties: 
+            timestamp: 
+              description: The approximate time the error was encountered
+              type:        string
+              format:      date-time
+            id: 
+              description: The unique identifier for the error
+              type:        integer
+              format:      int32
+  operationPath: 
+    - paths
+    - /
+    - get
+  operationParameters: 
+    (empty array)
+  security: 
+    (empty array)
+  swaggerVersion:      2.0
+  useStubs:            false

@@ -1,0 +1,61 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: User
+# during dev, should point to your local machine
+host: localhost:3000
+# basePath prefixes all resource paths jk
+basePath: /v1/user
+schemes:
+  - http
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /:
+    x-swagger-router-controller: user
+    get:
+      # used as the method name of the controller
+      description: Return the name of the currently logged in user
+      operationId: get
+      responses:
+        "200":
+          description: User Found
+          schema:
+            $ref: "#/definitions/User"
+        # responses may fall through to errors
+        "401":
+          description: Not Logged In
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ServerError"
+# complex objects have schema definitions
+definitions:
+  User:
+    properties:
+      id:
+        type: integer
+        format: int32
+      firstname:
+        type: string
+      lastname:
+        type: string
+      email:
+        type: string
+  ServerError:
+    required:
+      - timestamp
+      - id
+    properties:
+      timestamp:
+        description: The approximate time the error was encountered
+        type: string
+        format: date-time
+      id:
+        description: The unique identifier for the error
+        type: integer
+        format: int32
